@@ -14,3 +14,7 @@ On Ubuntu 16.04:
 
 * **Python and ImageMagick:** Already installed
 * **WebP:** `sudo apt install webp`
+
+### Author and Contact
+
+Alessandro Beleboni Belini (lordtecnetos@gmail.com)
