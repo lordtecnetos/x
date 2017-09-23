@@ -78,5 +78,5 @@ def main(webps):
 
 
 if __name__ == '__main__':
-    main(sorted([f for f in os.listdir() if f.endswith('.webp')]))
+    main(sorted([f for f in os.listdir() if f.endswith(IMG.format('', WEBP))]))
 
