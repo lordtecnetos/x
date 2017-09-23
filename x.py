@@ -40,8 +40,11 @@ def arrange(*imgs):
     print('Moving images...')
     for img in imgs:
         dest = os.path.splitext(img)[-1].lstrip('.')
-        shutil.move(img, dest)
-        print('Moved {} to {}/'.format(img, dest))
+        if dest in dests:
+            shutil.move(img, dest)
+            print('Moved {} to {}/'.format(img, dest))
+        else:
+            print('Ignored {}: File format not allowed'.format(img))
 
     print()
 
