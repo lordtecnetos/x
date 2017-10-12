@@ -74,7 +74,7 @@ def main(webps):
         # organiza os arquivos
         arrange(jpg, png, webp)
     
-    print('##### END #####')
+    print('###### END ######')
 
 
 if __name__ == '__main__':
